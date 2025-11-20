@@ -1,4 +1,4 @@
-import '../css/Footer.css'
+import '../css/components/Footer.css'
 import Socials from '../components/Socials'
 
 function Footer() {
