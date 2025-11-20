@@ -1,6 +1,6 @@
+/* Existing Styles */
 .title {
     font-size: 3rem;
-
 }
 
 .subtitle {
@@ -12,5 +12,109 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* 1. Container for text and image */
+.hero-content {
+    /* Enables side-by-side layout */
+    display: flex;
+    /* Vertically centers the text and image */
+    align-items: normal;
+    /* Adds space between the text and the image */
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+}
+
+/* 2. Container for the text content */
+.hero-text {
+    flex-grow: 1;
+}
+
+.title {
+    text-align: center;
+}
+
+/* 3. Styling the image */
+.portrait-image {
+    max-width: 330px;
+    height: auto;
+    flex-shrink: 0;
+    width: 100%;
+    margin: auto;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 920px) {
+    .hero-content {
+        display: flex;
+        align-items: normal;
+        gap: 50px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .portrait-image {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .portrait-image {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .portrait-image {
+        max-width: 250px;
+    }
 }
