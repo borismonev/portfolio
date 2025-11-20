@@ -1,4 +1,3 @@
-/* From Uiverse.io by elisapi */
 .socials {
     width: fit-content;
     height: fit-content;
@@ -7,8 +6,8 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-
-    margin-left: auto;
+    padding: 10px 0px;
+    /* CRITICAL CHANGE: Removed margin-left: auto; so it can be centered by the footer. */
 }
 
 /* for all social containers*/
@@ -68,11 +67,36 @@
 
 @media (max-width: 900px) {
     .socialContainer {
-        width: 42px;
-        height: 42px;
+        width: 52px;
+        height: 52px;
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 720px) {
+    .socialContainer {
+        width: 48px;
+        height: 48px;
+    }
+}
 
-@media (max-width: 480px) {}
+@media (max-width: 660px) {
+    .socialContainer {
+        width: 36px;
+        height: 36px;
+    }
+
+    .socials {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .socialContainer {
+        width: 24px;
+        height: 24px;
+    }
+
+    .socials {
+        gap: 5px;
+    }
+}
