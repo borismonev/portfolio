@@ -1,0 +1,14 @@
+footer {
+    flex-shrink: 0;
+    padding: 1rem;
+    height: 90px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.copyright {
+    padding: auto;
+    margin: -30px auto 0 auto;
+    font-size: 0.9rem;
+}

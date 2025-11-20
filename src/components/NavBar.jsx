@@ -1,21 +1,15 @@
 import { Link, useLocation } from 'react-router-dom';
 import '../css/NavBar.css';
-// Import your logo here. Assuming it's in the same folder or an 'assets' folder
-import logoSvg from '../assets/logo.svg'; // Adjust the path if necessary
+import logoSvg from '../assets/logo.svg';
 
 function NavBar() {
     const location = useLocation();
 
     return (
-        // New parent container to hold both the logo and the navigation links
         <div className='navbar-container'>
-
-            {/* 1. Logo Container (New Element) */}
             <Link to='/' className='logo-circle'>
                 <img src={logoSvg} alt="Logo" className="navbar-logo" />
             </Link>
-
-            {/* 2. Existing Navigation Wrapper */}
             <div className='wrapper'>
                 <nav>
                     <input type="radio" name="tab" id="home" checked={location.pathname === '/'} readOnly />
