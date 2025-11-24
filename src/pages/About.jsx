@@ -3,7 +3,7 @@ import AboutCard from '../components/AboutCards'
 
 function About() {
     return <div>
-        <div className='hero-content'>
+        <div className='about-hero-content'>
             <div className='hero-text'>
                 <h1 className='title'> <b>About me</b></h1>
                 <p className='subtitle'>

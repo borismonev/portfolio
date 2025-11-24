@@ -23,7 +23,7 @@ function AboutCard() {
                         </li>
                         <hr className='devider' />
                         <li>
-                            Another interest of mine are <b>cars</b>, but not the regular traffic - I am into the <b>high performance</b> and <b>exclusive</b> type of cars. Whenever I travel I always look forward to <b>spotting some cool car</b> on the street and photographing it to share with friends. I read and watch <b>reviews</b> on the <b>latest cars</b> and I love learning about their improvements and <b>innovative features</b>. <b>Technology</b> is also a big part of cars and that is why I am <b>passionate about both</b>.
+                            Another interest of mine is <b>cars</b>, but not the regular traffic - I am into the <b>high performance</b> and <b>exclusive</b> type of cars. Whenever I travel I always look forward to <b>spotting some cool car</b> on the street and photographing it to share with friends. I read and watch <b>reviews</b> on the <b>latest cars</b> and I love learning about their improvements and <b>innovative features</b>. <b>Technology</b> is also a big part of cars and that is why I am <b>passionate about both</b>.
                         </li>
                     </ul>
 
@@ -47,11 +47,11 @@ function AboutCard() {
                         </li>
                         <hr className='devider' />
                         <li>
-                            Something I like to do in my free time is to <b>play video games</b>. In spite of that many find this activity unproductive and a waste of time, I think it has <b>benefited me more than it has harmed me</b>. I enjoy playing <b>competitive online games</b> which require strategy and communication and I also like <b>driving games and simulators</b>.
+                            Something I like to do in my free time is to <b>play video games</b>. Although many find this activity unproductive and a waste of time, I think it has <b>benefited me more than it has harmed me</b>. I enjoy playing <b>competitive online games</b> which require strategy and communication and I also like <b>driving games and simulators</b>.
                         </li>
                         <hr className='devider' />
                         <li>
-                            Another hobby of mine is <b>phtography</b>. I enjoy taking pictures of the <b>sceneric places</b> I travel to, but mostly I like taking pictures of <b>cars</b>. I am an amateur and I take pictures on a smartphone, but the process of figuring out <b>angles, lighting</b> and <b>toughing up pictures in post</b> is very fun for me and I <b>sharing the final result</b> with others is great.
+                            Another hobby of mine is <b>photography</b>. I enjoy taking pictures of the <b>sceneric places</b> I travel to, but mostly I like taking pictures of <b>cars</b>. I am an amateur and I take pictures on a smartphone, but the process of figuring out <b>angles, lighting</b> and <b>touching up pictures in post</b> is very fun for me and <b>sharing the final result</b> with others is great.
                         </li>
                     </ul>
                 </div>
@@ -69,7 +69,7 @@ function AboutCard() {
 
                 <div className="poem">
                     <p>
-                        My education in Information Technology started in the Netherlands at <b>HZ University of Applied Sciences</b>, where I completed a <b>Propaedeutic Certificate in ICT</b> (September 2024 – June 2025). This year was very practical: I built a solid foundation in web development using <b>HTML, CSS, and JavaScript</b>. I also gained experience with object-oriented programming in <b>TypeScript</b>, applying it in a team project where we developed an <b>educational game for children</b>. Additionally, I learned full-stack principles using <b>PHP, SQL, and the Laravel framework</b>, which I applied in another team project creating a visitor registration system. Currently, I am continuing my studies in Sofia, pursuing a <b>Bachelor of Information Technology at New Bulgarian University</b>.
+                        My education in Information Technology started in the Netherlands at <b>HZ University of Applied Sciences</b>, where I completed a <b>Propaedeutic Certificate in ICT</b> (September 2024 – June 2025). This year was very practical: I built a solid foundation in web development using <b>HTML, CSS, and JavaScript</b>. I also gained experience with object-oriented programming in <b>TypeScript</b>, applying it in a team project where we developed an <b>educational game</b>. Additionally, I learned full-stack principles using <b>PHP, SQL, and the Laravel framework</b>, which I applied in another team project creating a visitor registration system. Currently, I am continuing my studies in Sofia, pursuing a <b>Bachelor of Information Technology at New Bulgarian University</b>.
                     </p>
                 </div>
             </div>

@@ -19,12 +19,12 @@
     margin: 0;
 }
 
-.hero-content {
+.about-hero-content {
     display: flex;
     align-items: normal;
     gap: 50px;
     max-width: 1200px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 60px auto;
 }
 
 .hero-text {
