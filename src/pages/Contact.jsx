@@ -10,8 +10,8 @@ function Contact() {
                     Thanks for visiting my portfolio! Whether you have a job opportunity, a project idea, or just want to discuss the latest in technology or high-performance cars, I would love to hear from you.
                 </p>
             </div>
-            <ContactCard />
         </div>
+        <ContactCard />
     </div>
 }
 

@@ -58,7 +58,7 @@
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
     overflow-x: auto;
-    padding: 1rem;
+    padding: 1rem 0.5rem 1rem 1rem;
     line-height: 19px;
     color: white;
     background-color: rgb(18, 18, 18);
@@ -156,5 +156,12 @@
         color: #fff;
         d: path("M 9 5 H 7 a 2 2 0 0 0 -2 2 v 12 a 2 2 0 0 0 2 2 h 10 a 2 2 0 0 0 2 -2 V 7 a 2 2 0 0 0 -2 -2 h -2 M 9 5 a 2 2 0 0 0 2 2 h 2 a 2 2 0 0 0 2 -2 M 9 5 a 2 2 0 0 1 2 -2 h 2 a 2 2 0 0 1 2 2 m -6 9 l 2 2 l 4 -4"
             );
+    }
+}
+
+@media (max-width: 480px) {
+    .wrap {
+        max-width: 100%;
+        margin: auto auto auto auto;
     }
 }
