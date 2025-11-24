@@ -1,5 +1,4 @@
 @layer base, utilities, demo;
-@import url(https://fonts.bunny.net/css?family=kodchasan:200,400,600) layer(demo);
 
 @layer demo {
     section {
