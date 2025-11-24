@@ -5,8 +5,8 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import ScrollToTop from './utility/ScrollToTop';
 import About from './pages/About';
-import Skills from './pages/Skills';
-import Projects from './pages/Projects';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 function App() {
 
@@ -18,8 +18,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/skills' element={<Skills />} />
-          <Route path='/projects' element={<Projects />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </div>
       <Footer />

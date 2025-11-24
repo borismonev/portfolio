@@ -1,16 +1,15 @@
-import '../css/pages/Projects.css'
+import '../css/pages/Portfolio.css'
 
-function Projects() {
+function Portfolio() {
     return <div>
         <div className='hero-content'>
             <div className='hero-text'>
-                <h1 className='title'> <b>Projects</b></h1>
+                <h1 className='title'> <b>My portfolio</b></h1>
                 <p className='subtitle'>
-                    List of projects
                 </p>
             </div>
         </div>
     </div>
 }
 
-export default Projects
+export default Portfolio

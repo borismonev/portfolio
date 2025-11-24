@@ -8,11 +8,11 @@ function Home() {
             <div className='hero-text'>
                 <h1 className='title'> <b>Hello, I am Boris</b></h1>
                 <p className='subtitle'>
-                    Welcome to my portfolio website! I am an undergraduate student majoring in Information Technology. Here you can find information about me, the projects I have worked on and how you can get in touch with me.
+                    Welcome to my <b>portfolio website</b>! I am an undergraduate student majoring in <b>Information Technology</b>. Here you can find information about me, my <b>interests</b>, the <b>projects</b> I have worked on and how to get in touch with me.
                 </p>
                 <hr />
                 <p className='subtitle'>
-                    I love experimenting with various devices, seeing how they work, and experiencing the innovative features they bring to the world. I am studying Information Technology to enhance my understanding of technology not only on a hardware level but also on a software level.
+                    I love <b>experimenting with various devices</b>, seeing how they work, and experiencing the <b>innovative features</b> they bring to the world. I am studying <b>Information Technology</b> to enhance my understanding of technology not only on a <b>hardware level</b> but also on a <b>software level</b>.
                 </p>
             </div>
             <img
@@ -20,7 +20,7 @@ function Home() {
                 alt='portrait-image'
                 className='portrait-image'
             />
-        </div>
+        </div >
         <div className='cards'>
             <Card
                 title={'About me'}
@@ -38,7 +38,7 @@ function Home() {
                 link={'/projects'}
             />
         </div>
-    </div>
+    </div >
 }
 
 export default Home

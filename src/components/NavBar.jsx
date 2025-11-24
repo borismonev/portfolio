@@ -14,8 +14,8 @@ function NavBar() {
                 <nav>
                     <input type="radio" name="tab" id="home" checked={location.pathname === '/'} readOnly />
                     <input type="radio" name="tab" id="about" checked={location.pathname === '/about'} readOnly />
-                    <input type="radio" name="tab" id="skills" checked={location.pathname === '/skills'} readOnly />
-                    <input type="radio" name="tab" id="projects" checked={location.pathname === '/projects'} readOnly />
+                    <input type="radio" name="tab" id="portfolio" checked={location.pathname === '/portfolio'} readOnly />
+                    <input type="radio" name="tab" id="contact" checked={location.pathname === '/contact'} readOnly />
 
                     <label htmlFor="home" className="home">
                         <Link to='/'>Home</Link>
@@ -23,11 +23,11 @@ function NavBar() {
                     <label htmlFor="about" className="about">
                         <Link to='/about'>About</Link>
                     </label>
-                    <label htmlFor="skills" className="skills">
-                        <Link to='/skills'>Skills</Link>
+                    <label htmlFor="portfolio" className="portfolio">
+                        <Link to='/portfolio'>Portfolio</Link>
                     </label>
-                    <label htmlFor="projects" className="projects">
-                        <Link to='/projects'>Projects</Link>
+                    <label htmlFor="contact" className="contact">
+                        <Link to='/contact'>Contact</Link>
                     </label>
 
                     <div className="tab"></div>

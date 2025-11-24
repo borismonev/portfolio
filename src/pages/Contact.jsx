@@ -1,13 +1,14 @@
-import '../css/pages/Skills.css'
+import '../css/pages/Contact.css'
 
-function Skills() {
+function Contact() {
     return <div>
         <div className='hero-content'>
             <div className='hero-text'>
-                <h1 className='title'> <b>My skills</b></h1>
+                <h1 className='title'> <b>Contact me</b></h1>
+
             </div>
         </div>
     </div>
 }
 
-export default Skills
+export default Contact

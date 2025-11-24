@@ -92,8 +92,8 @@
 
 .wrapper nav #home:checked~label.home a,
 .wrapper nav #about:checked~label.about a,
-.wrapper nav #skills:checked~label.skills a,
-.wrapper nav #projects:checked~label.projects a {
+.wrapper nav #portfolio:checked~label.portfolio a,
+.wrapper nav #contact:checked~label.contact a {
     color: #fff;
 }
 
@@ -113,11 +113,11 @@
     left: 25%;
 }
 
-.wrapper nav #skills:checked~.tab {
+.wrapper nav #portfolio:checked~.tab {
     left: 50%;
 }
 
-.wrapper nav #projects:checked~.tab {
+.wrapper nav #contact:checked~.tab {
     left: 75%;
 }
 
